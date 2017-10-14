@@ -13,6 +13,8 @@ namespace CsvContext
             var context = new MyContext();
 
             var aaa = from c in context.Persons where c.Name == "KANG" select c;
+
+            //
         }
     }
 }
